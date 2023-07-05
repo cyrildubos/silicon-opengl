@@ -1,7 +1,7 @@
 #include <silicon/utilities.hpp>
 
 namespace Silicon {
-std::string read_file(const char* path) {
+std::string read_file(const std::string& path) {
   std::string shader_string;
 
   auto file_stream = std::ifstream(path, std::ios::in);

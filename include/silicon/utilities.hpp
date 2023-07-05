@@ -9,7 +9,7 @@
 #include <vector>
 
 namespace Silicon {
-std::string read_file(const char*);
+std::string read_file(const std::string&);
 } // namespace Silicon
 
 #endif

@@ -10,7 +10,7 @@ class Shader {
 public:
   GLuint reference;
 
-  Shader(GLenum, const char*);
+  Shader(GLenum, const std::string&);
   ~Shader();
 
   void check_compilation();

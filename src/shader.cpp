@@ -1,6 +1,6 @@
 #include <silicon/shader.hpp>
 
-Silicon::Shader::Shader(GLenum type, const char* path) {
+Silicon::Shader::Shader(GLenum type, const std::string& path) {
   auto string = read_file(path);
 
   auto source = string.c_str();

@@ -1,6 +1,7 @@
 #ifndef OPENGL_APPLICATION_HPP
 #define OPENGL_APPLICATION_HPP
 
+#include <memory>
 #include <string>
 
 #include <GL/glew.h>
